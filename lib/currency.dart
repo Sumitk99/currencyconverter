@@ -13,6 +13,7 @@ class _Stateful extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset : false
       appBar: AppBar(
         elevation: 0,
         centerTitle: true,
