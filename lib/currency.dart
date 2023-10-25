@@ -91,7 +91,7 @@ class _Stateful extends State {
                   minimumSize: const Size(double.infinity, 50),
                 ),
                 onPressed: () {},
-                child: Text("Amount in USD : " + output.toString(),
+                child: Text("Amount in USD : ${output.toStringAsFixed(2)}" ,
                     style: const TextStyle(
                         color: Colors.white,
                         fontSize: 20,
